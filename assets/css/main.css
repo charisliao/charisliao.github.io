@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1656,3 +1659,49 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/*set github logo size*/
+img.github-logo {
+  width: 15px;
+  height: 15px;
+}
+
+.project {
+	background-color: #826d8b45; /* Set the background color of each project block */
+    padding: 20px; /* Adjust padding as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.project h3 {
+color: #ffffff; /* Set the color of the heading text */
+}
+
+.project a {
+color: #ffffff; /* Set the color of the link text */
+}
+
+.project p {
+color: #ffffff; /* Set the color of the paragraph text */
+}
+
+.project h4 {
+color: #ffffff; /* Set the color of the heading text */
+}
+
+.project img.github-logo {
+width: 15px; /* Adjust the width of the GitHub logo */
+height: auto; /* Maintain aspect ratio */
+}
+
+.project img.crisis-text-line {
+max-width: 100%; /* Adjust the width of the Crisis Text Line logo */
+max-height: 100%; /* Maintain aspect ratio */
+}
+
+.link-margin {
+margin-right: 10px; /* Adjust the margin as needed */
+}
+.project img.html-portfolio {
+	max-width: 100%; /* Adjust the width of the Crisis Text Line logo */
+	max-height: 100%; /* Maintain aspect ratio */
+}
